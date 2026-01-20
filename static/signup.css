@@ -1,0 +1,55 @@
+         .profile-image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-preview {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ddd;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: border-color 0.3s;
+        }
+        .profile-preview:hover {
+            border-color: #4CAF50;
+        }
+        .profile-upload-label {
+            display: inline-block;
+            cursor: pointer;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .profile-upload-label:hover {
+            color: #45a049;
+        }
+        #profile-image {
+            display: none;
+        }
+        .image-preview-container {
+            position: relative;
+            display: inline-block;
+        }
+        .change-text {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .image-preview-container:hover .change-text {
+            opacity: 1;
+        }
+        .file-info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+    

@@ -1,0 +1,15 @@
+# Environment & secrets
+.env
+
+# Dependencies
+/vendor/
+node_modules/
+
+# Logs & cache
+*.log
+/cache/
+.tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
