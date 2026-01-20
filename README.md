@@ -156,9 +156,12 @@ Improved UI/UX design
 
 👨‍💻 Author
 
-Tekele Tesfaye
+Tekele Tesfaye 
+
 Computer Science Student
+
 University of Gondar
 
 
 📌 GitHub: https://github.com/Teke28
+
